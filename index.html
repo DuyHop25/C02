@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Number Generator</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Quay số trúng thưởng</h1>
+		<div class="inputs">
+			<label for="min">Min:</label>
+			<input type="number" id="min" name="min" value=0>
+			<label for="max">Max:</label>
+			<input type="number" id="max" name="max" value=100>
+		</div>
+		<button id="generate" onclick="random()">Quay số</button>
+		<p id="result"></p>
+	</div>
+	<footer class="footer">
+		<img class="footer__logo" src="img/kmin-logo.png" alt="KMIN logo" />
+	  </footer>
+	  <script src="./script.js"></script>
+</body>
+</html>
